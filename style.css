@@ -36,6 +36,7 @@ h6 {
   /* outline: 1px solid red; */
   padding: 2rem 1.2rem 0 1.2rem;
   position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .logo-links {
@@ -102,7 +103,43 @@ h6 {
   letter-spacing: 3px;
 }
 
-#viewPlans {
+.view-plans {
   border: 2px solid var(--very-light-gray);
   padding: 1rem 0.1rem;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+}
+
+.hero-text {
+  background-color: var(--dark-violet);
+  padding: 5rem 1.6rem 4rem 1.6rem;
+  color: var(--very-light-gray);
+  text-align: center;
+  background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero-text h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.btn-view-plans {
+  padding: 1rem 2.3rem;
+  border: 2px solid var(--very-light-gray);
+  background: none;
+  color: var(--very-light-gray);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Karla", sans-serif;
+  letter-spacing: 1px;
 }
