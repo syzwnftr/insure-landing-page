@@ -30,6 +30,7 @@ h6 {
 
 .container {
   max-width: 100%;
+  padding-bottom: 2rem;
 }
 
 .nav {
@@ -133,7 +134,7 @@ h6 {
   line-height: 1.8;
 }
 
-.btn-view-plans {
+.btn {
   padding: 1rem 2.3rem;
   border: 2px solid var(--very-light-gray);
   background: none;
@@ -143,6 +144,10 @@ h6 {
   font-family: "Karla", sans-serif;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+.contents {
+  margin-bottom: 5rem;
 }
 
 .content-div {
@@ -185,4 +190,21 @@ h6 {
 .desc p {
   color: var(--dark-grayish-violet);
   line-height: 1.5;
+}
+
+.find-out-more {
+  background-color: var(--dark-violet);
+  margin: 0 1.6rem;
+  padding: 4.5rem 2rem;
+  text-align: center;
+  background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.find-out-more h3 {
+  color: var(--very-light-gray);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 1;
 }
