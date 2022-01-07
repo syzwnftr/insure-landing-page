@@ -194,7 +194,7 @@ h6 {
 
 .find-out-more {
   background-color: var(--dark-violet);
-  margin: 0 1.6rem;
+  margin: 0 1.6rem 5rem 1.6rem;
   padding: 4.5rem 2rem;
   text-align: center;
   background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
@@ -207,4 +207,36 @@ h6 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   line-height: 1;
+}
+
+.socmed {
+  padding: 5rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(./images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--very-light-gray);
+}
+
+.socmed-logo {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.socmed-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed-icons img {
+  width: 7%;
+}
+
+.socmed-icons > * + * {
+  margin-left: 1rem;
 }
