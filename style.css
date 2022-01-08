@@ -233,8 +233,13 @@ h6 {
   align-items: center;
 }
 
+.socmed-icons a {
+  text-decoration: none;
+}
+
 .socmed-icons img {
-  width: 7%;
+  display: block;
+  width: 100%;
 }
 
 .socmed-icons > * + * {
