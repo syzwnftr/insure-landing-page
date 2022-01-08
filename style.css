@@ -30,7 +30,6 @@ h6 {
 
 .container {
   max-width: 100%;
-  padding-bottom: 2rem;
 }
 
 .nav {
@@ -209,6 +208,11 @@ h6 {
   line-height: 1;
 }
 
+.footer {
+  background-color: var(--very-light-gray);
+  padding-bottom: 3rem;
+}
+
 .socmed {
   padding: 5rem 0 1rem 0;
   display: flex;
@@ -219,6 +223,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--very-light-gray);
+  margin-bottom: 2rem;
 }
 
 .socmed-logo {
@@ -244,4 +249,31 @@ h6 {
 
 .socmed-icons > * + * {
   margin-left: 1rem;
+}
+
+.line-footer {
+  width: 85%;
+  border-top: 1px solid hsla(273, 4%, 51%, 50%);
+  margin-bottom: 2.5rem;
+}
+
+.info {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.info p {
+  font-weight: 700;
+  color: var(--dark-grayish-violet);
+  margin-bottom: 2rem;
+}
+
+.info a {
+  display: block;
+  text-decoration: none;
+  color: var(--very-dark-violet);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
