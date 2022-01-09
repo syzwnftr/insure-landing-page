@@ -159,6 +159,12 @@ h6 {
   font-family: "Karla", sans-serif;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-violet);
 }
 
 .contents {
