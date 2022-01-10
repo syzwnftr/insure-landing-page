@@ -260,16 +260,20 @@ h6 {
 }
 
 .socmed-icons a {
+  /* outline: 1px solid black; */
+  padding: 0.5rem;
   text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socmed-icons img {
   display: block;
   width: 100%;
-}
-
-.socmed-icons > * + * {
-  margin-left: 1rem;
 }
 
 .line-footer {
