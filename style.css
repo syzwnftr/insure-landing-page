@@ -20,17 +20,6 @@ body {
   position: relative;
 }
 
-body::after {
-  content: "";
-  position: absolute;
-  top: 23%;
-  left: 67%;
-  min-width: 100%;
-  height: 350px;
-  background-image: url(./images/bg-pattern-intro-right-mobile.svg);
-  background-repeat: no-repeat;
-}
-
 h1,
 h2,
 h3,
@@ -162,6 +151,19 @@ h6 {
 .btn:hover {
   background-color: var(--very-light-gray);
   color: var(--very-dark-violet);
+}
+
+.bg-pattern {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  right: 0;
+  top: 24%;
+}
+
+.bg-pattern img {
+  display: block;
 }
 
 .contents {
