@@ -280,11 +280,6 @@ h6 {
   color: var(--very-dark-violet);
 }
 
-.socmed-icons img {
-  display: block;
-  width: 100%;
-}
-
 .line-footer {
   width: 85%;
   border-top: 1px solid hsla(273, 4%, 51%, 50%);
