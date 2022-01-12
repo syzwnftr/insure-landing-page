@@ -108,6 +108,16 @@ h6 {
 .view-plans {
   border: 2px solid var(--very-light-gray);
   padding: 1rem 0.1rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.view-plans:hover {
+  background-color: var(--very-light-gray);
+}
+
+.view-plans:hover a {
+  color: var(--very-dark-violet);
 }
 
 .hero-img {
