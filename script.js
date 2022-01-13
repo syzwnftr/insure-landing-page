@@ -10,7 +10,6 @@ const btnNav = (() => {
             mobileNav.classList.remove('display-none');
             hamburgerIcon.src = './images/icon-close.svg';
             count += 1;
-            console.log(count);
             e.preventDefault();
             return;
         }
@@ -18,7 +17,6 @@ const btnNav = (() => {
             mobileNav.classList.add('display-none');
             hamburgerIcon.src = './images/icon-hamburger.svg';
             count -= 1;
-            console.log(count);
             e.preventDefault();
             return;
         }       
