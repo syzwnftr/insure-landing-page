@@ -95,6 +95,7 @@ h6 {
 
 .nav-links ul li {
   margin-bottom: 2.5rem;
+  list-style: none;
 }
 
 .nav-links ul li a {
@@ -344,7 +345,9 @@ h6 {
 
 @media (min-width: 845px) {
   .nav {
-    outline: 1px solid black;
+    /* outline: 1px solid red; */
+    padding: 2rem 2rem;
+    margin-bottom: 0;
   }
 
   .hamburger-link {
@@ -352,9 +355,48 @@ h6 {
   }
 
   .nav-links,
-  .nav-links ul,
-  .nav-links ul li,
-  .nav-links ul li a {
+  .nav-links ul {
     all: unset;
+  }
+
+  .nav-links ul li a {
+    color: var(--dark-grayish-violet);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.4s ease;
+    font-size: 1rem;
+  }
+
+  .nav-links ul li a:hover {
+    text-decoration: none;
+    color: var(--very-dark-violet);
+  }
+
+  .nav-links ul li {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    display: inline;
+  }
+
+  .view-plans {
+    border: 2px solid var(--very-dark-violet);
+    padding: 0.7rem 1rem;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .view-plans:hover {
+    background-color: var(--very-dark-violet);
+  }
+
+  .nav-links .view-plans a {
+    color: var(--very-dark-violet);
+  }
+
+  .nav-links .view-plans:hover a {
+    color: var(--very-light-gray);
+    text-decoration: none;
   }
 }
