@@ -132,6 +132,10 @@ h6 {
   width: 100%;
 }
 
+.no-display {
+  display: none;
+}
+
 .hero-text {
   background-color: var(--dark-violet);
   padding: 5rem 1.6rem 4rem 1.6rem;
@@ -326,4 +330,31 @@ h6 {
 
 .info a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+  .hero-img {
+    display: none;
+  }
+
+  .no-display {
+    display: block;
+  }
+}
+
+@media (min-width: 845px) {
+  .nav {
+    outline: 1px solid black;
+  }
+
+  .hamburger-link {
+    display: none;
+  }
+
+  .nav-links,
+  .nav-links ul,
+  .nav-links ul li,
+  .nav-links ul li a {
+    all: unset;
+  }
 }
