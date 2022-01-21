@@ -399,4 +399,25 @@ h6 {
     color: var(--very-light-gray);
     text-decoration: none;
   }
+
+  .no-display {
+    display: block;
+    max-width: 40%;
+    position: absolute;
+    top: 10rem;
+    right: 2rem;
+  }
+
+  .hero-text {
+    text-align: left;
+    padding: 3rem 1.6rem;
+  }
+
+  .hero-text h1 {
+    padding-right: 20rem;
+  }
+
+  .hero-text p {
+    padding-right: 25rem;
+  }
 }
