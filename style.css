@@ -144,7 +144,7 @@ h6 {
   text-align: center;
   background-image: url(./images/bg-pattern-intro-left-mobile.svg);
   background-repeat: no-repeat;
-  z-index: -1;
+  position: relative;
 }
 
 .hero-text h1 {
@@ -173,6 +173,10 @@ h6 {
 .btn:hover {
   background-color: var(--very-light-gray);
   color: var(--very-dark-violet);
+}
+
+.bg-hero-desktop {
+  display: none;
 }
 
 .bg-pattern {
@@ -400,17 +404,36 @@ h6 {
     text-decoration: none;
   }
 
+  .bg-hero-desktop {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5.5rem;
+    right: 0;
+    z-index: 2;
+  }
+
+  .bg-hero-desktop img {
+    width: 50%;
+  }
+
+  .hero {
+    position: relative;
+  }
+
   .no-display {
     display: block;
     max-width: 40%;
     position: absolute;
-    top: 10rem;
+    top: 4rem;
     right: 2rem;
+    z-index: 1;
   }
 
   .hero-text {
     text-align: left;
     padding: 3rem 1.6rem;
+    background-image: none;
   }
 
   .hero-text h1 {
