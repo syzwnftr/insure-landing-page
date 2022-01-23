@@ -462,4 +462,18 @@ h6 {
   .bg-pattern {
     display: none;
   }
+
+  .socmed-logo {
+    width: auto;
+  }
+}
+
+@media (min-width: 910px) {
+  .hero-text h1 {
+    padding-right: 30rem;
+  }
+
+  .hero-text p {
+    padding-right: 30rem;
+  }
 }
