@@ -192,6 +192,10 @@ h6 {
   display: block;
 }
 
+.bg-pattern-desktop {
+  display: none;
+}
+
 .contents {
   margin-bottom: 5rem;
 }
@@ -453,5 +457,9 @@ h6 {
 
   .hero-text p {
     padding-right: 25rem;
+  }
+
+  .bg-pattern {
+    display: none;
   }
 }
