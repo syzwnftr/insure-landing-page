@@ -510,9 +510,17 @@ h6 {
     right: 10%;
   }
 
+  .bg-pattern-desktop {
+    display: block;
+    position: absolute;
+    top: 30rem;
+    left: -2rem;
+  }
+
   .content-div {
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     padding: 15rem 10%;
+    padding-bottom: 5rem;
     text-align: left;
   }
 
@@ -559,5 +567,15 @@ h6 {
   .desc p {
     color: var(--dark-grayish-violet);
     line-height: 1.5;
+  }
+
+  .find-out-more {
+    background-color: var(--dark-violet);
+    margin: 0 10% 5rem 10%;
+    padding: 4.5rem 2rem;
+    text-align: center;
+    background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
   }
 }
