@@ -519,17 +519,34 @@ h6 {
   .line-top {
     margin: 0;
     margin-bottom: 2rem;
+    opacity: 0.5;
   }
 
-  /* .desc {
-    margin-bottom: 2.5rem;
-    display: inline;
+  .content-div h2 {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .desc-div {
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* .desc-div > * {
+    outline: 1px solid black;
+  } */
+
+  .desc {
+    margin-bottom: 0;
+    margin-right: 3rem;
   }
 
   .desc img {
     display: block;
-    width: 25%;
-    margin: auto;
+    width: auto;
+    margin: 0;
     margin-bottom: 2.5rem;
   }
 
@@ -542,5 +559,5 @@ h6 {
   .desc p {
     color: var(--dark-grayish-violet);
     line-height: 1.5;
-  } */
+  }
 }
