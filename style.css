@@ -78,6 +78,7 @@ h6 {
   background-size: auto;
   transition: all 0.85s ease-in-out;
   opacity: 1;
+  z-index: 2;
 }
 
 .display-none {
@@ -508,4 +509,38 @@ h6 {
     top: 3rem;
     right: 10%;
   }
+
+  .content-div {
+    outline: 1px solid black;
+    padding: 15rem 10%;
+    text-align: left;
+  }
+
+  .line-top {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  /* .desc {
+    margin-bottom: 2.5rem;
+    display: inline;
+  }
+
+  .desc img {
+    display: block;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 2.5rem;
+  }
+
+  .desc h3 {
+    color: var(--very-dark-violet);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .desc p {
+    color: var(--dark-grayish-violet);
+    line-height: 1.5;
+  } */
 }
