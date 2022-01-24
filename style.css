@@ -440,8 +440,9 @@ h6 {
 
   .hero-text {
     text-align: left;
-    padding: 3rem 1.6rem;
+    padding: 3rem 2rem;
     background-image: none;
+    /* outline: 1px solid red; */
   }
 
   .line-top-hero {
