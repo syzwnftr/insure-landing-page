@@ -346,6 +346,12 @@ h6 {
   text-decoration: underline;
 }
 
+@media (min-width: 420px) {
+  .socmed {
+    background-position: left;
+  }
+}
+
 @media (min-width: 500px) {
   .hero-img {
     display: none;
