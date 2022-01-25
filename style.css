@@ -506,6 +506,10 @@ h6 {
     padding: 3rem 10%;
   }
 
+  .hero-text p {
+    padding-right: 35rem;
+  }
+
   .bg-hero-desktop img {
     width: 70%;
   }
@@ -603,5 +607,35 @@ h6 {
 
   .line-footer {
     width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-text {
+    padding: 5rem 10%;
+  }
+
+  .hero-text h1 {
+    font-size: 3.5rem;
+    padding-right: 45rem;
+  }
+
+  .hero-text p {
+    padding-right: 38rem;
+  }
+
+  .no-display {
+    max-width: 35%;
+    top: 3rem;
+    right: 10%;
+  }
+
+  .bg-pattern-desktop {
+    top: 29rem;
+    left: 0;
+  }
+
+  .bg-hero-desktop img {
+    width: 70%;
   }
 }
