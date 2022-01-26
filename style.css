@@ -610,7 +610,7 @@ h6 {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1350px) {
   .hero-text {
     padding: 5rem 10%;
   }
@@ -625,8 +625,8 @@ h6 {
   }
 
   .no-display {
-    max-width: 35%;
-    top: 3rem;
+    max-width: 38%;
+    top: 4rem;
     right: 10%;
   }
 
@@ -689,4 +689,12 @@ h6 {
     background-color: var(--very-light-gray);
     margin-bottom: 2rem;
   } */
+}
+
+@media (min-width: 1440px) {
+  .no-display {
+    max-width: 35%;
+    top: 3rem;
+    right: 10%;
+  }
 }
