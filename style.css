@@ -631,7 +631,7 @@ h6 {
   }
 
   .bg-pattern-desktop {
-    top: 29rem;
+    top: 35rem;
     left: 0;
   }
 
@@ -696,5 +696,10 @@ h6 {
     max-width: 35%;
     top: 3rem;
     right: 10%;
+  }
+
+  .bg-pattern-desktop {
+    top: 29rem;
+    left: 0;
   }
 }
