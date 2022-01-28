@@ -35,14 +35,12 @@ h6 {
 }
 
 .nav {
-  /* outline: 1px solid red; */
   padding: 2rem 1.2rem 0 1.2rem;
   position: relative;
   margin-bottom: 1.5rem;
 }
 
 .logo-links {
-  /* outline: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +85,6 @@ h6 {
 }
 
 .nav-links ul {
-  /* outline: 1px solid black; */
   list-style: none;
   padding: 0 2rem 0 2rem;
   margin-top: 3.5rem;
@@ -202,7 +199,6 @@ h6 {
 }
 
 .content-div {
-  /* outline: 1px solid black; */
   padding: 7rem 1.6rem 2rem 1.6rem;
   text-align: center;
 }
@@ -295,7 +291,6 @@ h6 {
 }
 
 .socmed-icons a {
-  /* outline: 1px solid black; */
   padding: 0.5rem;
   text-decoration: none;
   display: block;
@@ -364,7 +359,6 @@ h6 {
 
 @media (min-width: 845px) {
   .nav {
-    /* outline: 1px solid red; */
     padding: 2rem 2rem;
     margin-bottom: 0;
   }
@@ -449,7 +443,6 @@ h6 {
     text-align: left;
     padding: 3rem 2rem;
     background-image: none;
-    /* outline: 1px solid red; */
   }
 
   .line-top-hero {
@@ -528,7 +521,6 @@ h6 {
   }
 
   .content-div {
-    /* outline: 1px solid black; */
     padding: 15rem 10%;
     padding-bottom: 5rem;
     text-align: left;
@@ -551,10 +543,6 @@ h6 {
     justify-content: space-between;
     align-items: flex-start;
   }
-
-  /* .desc-div > * {
-    outline: 1px solid black;
-  } */
 
   .desc {
     margin-bottom: 0;
